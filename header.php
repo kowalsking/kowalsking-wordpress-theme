@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/prod/css/main.min.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   
 	<?php wp_head(); ?>
 </head>
@@ -32,7 +33,7 @@
           <a href="/" class="logo">K</a>
         <ul class="menu">
           <li>
-            <a href="/articles">
+            <a href="wordpress/articles">
               articles
             </a>
           </li>
