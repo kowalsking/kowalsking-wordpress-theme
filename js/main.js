@@ -1,3 +1,7 @@
+console.log('hello!')
+import gsap from 'gsap'
+
+console.log(gsap)
 
 const h1 = document.querySelector('.dmytro')
 

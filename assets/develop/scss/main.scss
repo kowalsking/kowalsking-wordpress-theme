@@ -34,12 +34,12 @@ body a:hover {
   margin: 0 20px;
   font-size: 40px;
   color: white;
-  transition: all 0.8s;
+  transition: all 0.3s;
 }
 
 .icons a:hover {
   color: pink;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header {
@@ -86,7 +86,7 @@ header {
   text-decoration: none;
   color: white;
   font-size: 30px;
-  transition: all 0.8s;
+  transition: all 0.3s;
 }
 
 .menu li a:hover {

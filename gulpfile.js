@@ -75,6 +75,3 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', gulp.parallel('watch', 'browser-sync', 'scss', 'scripts', 'img','fonts','clear'));
-
-
-
