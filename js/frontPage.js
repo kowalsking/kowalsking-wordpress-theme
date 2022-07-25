@@ -2,7 +2,19 @@ import gsap from 'gsap'
 
 export default class {
   constructor () {
+    this.handleH1()
+    this.disableUserSelect()
+  }
+
+  disableUserSelect () {
+    const fp = document.querySelector('.first-screen')
+    if (!fp) return
+    document.body.classList.add('disable-select')
+  }
+
+  handleH1 () {
     this.h1 = document.querySelector('.dmytro')
+
     if (!this.h1) return
 
     this.showH1()
