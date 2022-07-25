@@ -6,6 +6,11 @@
   user-select: none;
 }
 
+::selection {
+  color: #282c35;
+  background-color: pink;
+}
+
 html, body {
   margin: 0;
   padding: 0;
