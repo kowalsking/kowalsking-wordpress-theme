@@ -1,0 +1,44 @@
+.articles {
+  margin-bottom: 40px;
+}
+
+.articles-list .post {
+  display: grid;
+  grid-template-areas: 
+    'title title'
+    'date tag';
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.3s;
+  padding: 40px 0 20px;
+  border-bottom: 1px pink dashed;
+
+  &:hover  {
+    border-bottom: 1px pink solid;
+    transition: all 0.3s;
+    .article-title {
+      color: pink;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.article-title {
+  margin-bottom: 15px;
+  grid-area: title;
+  margin-top: 0;
+}
+
+.article-date {
+  grid-area: date;
+  font-size: 15px;
+}
+
+.article-tag {
+  text-align: right;
+  grid-area: tag;
+  font-size: 15px;
+}
+
+

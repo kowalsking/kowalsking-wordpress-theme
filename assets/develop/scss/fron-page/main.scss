@@ -1,0 +1,39 @@
+.first-screen {
+  position: relative;
+  height: calc(100vh - 87px - 74px);
+}
+
+.first-screen::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background: url('../img/me.jpg') no-repeat;
+  background-size: contain;
+}
+
+.first-screen .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dmytro {
+  margin: 0 auto;
+  color: pink;
+  font-size: 17rem;
+  text-align: left;
+  position: relative;
+  padding-left: 4rem;
+  opacity: 0.8;
+}
+
+.enthusiast {
+  color: rgb(181, 247, 0);
+  font-size: 7rem;
+  position: absolute;
+  top: 18%;
+  right: 0
+}

@@ -1,0 +1,100 @@
+@import './fron-page/main.scss';
+@import './articles/main.scss';
+@import './post/main.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  background-color: #282c35;
+  font-family: "Roboto", serif;
+}
+
+body a:hover {
+  cursor: url('http://kowalsking.dev/wp-content/uploads/2022/07/cursor.png') auto !important;
+}
+
+.container {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  background: #282c35;
+  min-height: fit-content;
+  padding: 0 10px;
+}
+
+.icons {
+  margin: 0 auto;
+  text-align: center;
+}
+.icons a {
+  margin: 0 20px;
+  font-size: 40px;
+  color: white;
+  transition: all 0.8s;
+}
+
+.icons a:hover {
+  color: pink;
+  transition: all 0.8s ease-in-out;
+}
+
+header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 40px;
+      height: 40px;
+      border: 1px solid pink;
+      color: pink;
+      margin: 20px 0;
+      transition: all 0.3s ease;
+      font-weight: bold;
+      &:hover {
+        color: #282c35;
+        transition: all 0.3s ease;
+        background-color: pink;
+      }
+    }
+  }
+}
+
+.menu {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.8s;
+}
+
+.menu li a:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  padding: 20px;
+}
