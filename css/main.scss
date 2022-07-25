@@ -1,3 +1,4 @@
+@import './utils/variables.scss';
 @import './fron-page/main.scss';
 @import './articles/main.scss';
 @import './post/main.scss';
@@ -7,14 +8,14 @@
 }
 
 ::selection {
-  color: #282c35;
-  background-color: pink;
+  color: $bg-color;
+  background-color: $accent-color;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #282c35;
+  background-color: $bg-color;
   font-family: "Roboto", serif;
 }
 
@@ -29,7 +30,7 @@ body a:hover {
 }
 
 .main {
-  background: #282c35;
+  background: $bg-color;
   min-height: fit-content;
   padding: 0 10px;
 }
@@ -46,7 +47,7 @@ body a:hover {
 }
 
 .icons a:hover {
-  color: pink;
+  color: $accent-color;
   transition: all 0.3s ease-in-out;
 }
 
@@ -62,15 +63,15 @@ header {
       flex-direction: column;
       width: 40px;
       height: 40px;
-      border: 1px solid pink;
-      color: pink;
+      border: 1px solid $accent-color;
+      color: $accent-color;
       margin: 20px 0;
       transition: all 0.3s ease;
       font-weight: bold;
       &:hover {
-        color: #282c35;
+        color: $bg-color;
         transition: all 0.3s ease;
-        background-color: pink;
+        background-color: $accent-color;
       }
     }
   }
@@ -98,7 +99,7 @@ header {
 }
 
 .menu li a:hover {
-  color: pink;
+  color: $accent-color;
   cursor: pointer;
 }
 

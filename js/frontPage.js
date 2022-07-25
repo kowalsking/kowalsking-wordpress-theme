@@ -17,21 +17,11 @@ export default class {
 
     if (!this.h1) return
 
+    this.prepareH1()
     this.showH1()
-    this.colorizeH1()
   }
 
-  showH1 () {
-    gsap.fromTo(this.h1, {
-      opacity: 0
-    }, {
-      delay: 1,
-      opacity: 0.8,
-      duration: 1.7
-    })
-  }
-
-  colorizeH1 () {
+  prepareH1 () {
     const dima = this.h1.innerText.split('').map(d => {
       if (d === ' ') return document.createElement('br')
       const element = document.createElement('span')
@@ -43,7 +33,20 @@ export default class {
 
     this.h1.innerText = ''
     dima.forEach(d => this.h1.append(d))
+  }
 
+  showH1 () {
+    gsap.fromTo(this.h1, {
+      opacity: 0
+    }, {
+      delay: 0.3,
+      opacity: 0.8,
+      duration: 1.7,
+      onComplete: this.colorizeH1.bind(this)
+    })
+  }
+
+  colorizeH1 () {
     const allD = document.querySelectorAll('.d')
     allD.forEach(d => {
       d.addEventListener('mouseover', () => {
