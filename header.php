@@ -33,18 +33,33 @@
           <a href="/" class="logo">K</a>
         <ul class="menu">
           <li>
-            <a href="wordpress/articles">
-              articles
+            <a class="menu-a" href="wordpress/articles">
+              <span>
+                articles
+              </span>
+              <span>
+                articles
+              </span>
             </a>
           </li>
           <li>
-            <a href="/about">
-              about
+            <a class="menu-a" href="/about">
+              <span>
+                about
+              </span>
+              <span>
+                about
+              </span>
             </a>
           </li>
           <li>
-            <a href="/contact">
-              contact
+            <a class="menu-a" href="/contact">
+            <span>
+                contact
+              </span>
+              <span>
+                contact
+              </span>
             </a>
           </li>
         </ul>

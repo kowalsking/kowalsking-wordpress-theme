@@ -98,12 +98,42 @@ header {
   transition: all 0.3s;
 }
 
-.menu li a:hover {
-  color: $accent-color;
-  cursor: pointer;
-}
+// .menu li a:hover {
+//   color: $accent-color;
+//   cursor: pointer;
+//   transform: translateY(-100%);
+// }
 
 footer {
   color: white;
   padding: 20px;
+}
+
+.menu-a {
+  overflow: hidden;
+  display: block;
+  height: 40px;
+}
+
+.menu-a span {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  transition: all 0.3s;
+}
+
+// .about span::before {
+//   content: 'about';
+//   position: absolute;
+//   top: 100%;
+//   transition: all 0.3s;
+//   transform: translate3d(0,0,0);
+// }
+
+.menu-a {
+  &:hover {
+    span {
+      transform: translateY(-100%);
+    }
+  }
 }

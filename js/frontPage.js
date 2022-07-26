@@ -14,6 +14,7 @@ export default class {
 
   handleH1 () {
     this.h1 = document.querySelector('.dmytro')
+    this.enthusiast = document.querySelector('.enthusiast')
 
     if (!this.h1) return
 
@@ -42,8 +43,12 @@ export default class {
       delay: 0.3,
       opacity: 0.8,
       duration: 1.7,
-      onComplete: this.colorizeH1.bind(this)
+      onComplete: () => {
+        this.colorizeH1()
+        gsap.to(this.enthusiast, { scaleX: 1, duration: 1 })
+      }
     })
+
   }
 
   colorizeH1 () {
