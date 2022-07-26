@@ -55,6 +55,7 @@ header {
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .logo {
       text-align: center;
       text-decoration: none;
@@ -94,7 +95,7 @@ header {
 .menu li a {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   transition: all 0.3s;
 }
 
@@ -112,14 +113,12 @@ footer {
 .menu-a {
   overflow: hidden;
   display: block;
-  height: 40px;
+  height: 25px;
 }
 
 .menu-a span {
-  overflow: hidden;
   display: block;
-  position: relative;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 // .about span::before {
