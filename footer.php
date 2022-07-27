@@ -17,9 +17,11 @@
       <div class="container">
         <div class="contacts">
           <div class="icons">
-            <a href="https://t.me/kowalsking" target="_blank" class="contact_link"><i class="fab fa-telegram"></i></a>
+            <a href="https://t.me/ssasspenss" target="_blank" class="contact_link"><i class="fab fa-telegram"></i></a>
             <a href="https://www.linkedin.com/in/dmytro-kozlenko-b74083132/" target="_blank" class="contact_link"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/kowalsking" target="_blank" class="contact_link"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/banderite/" target="_blank" class="contact_link"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/kwlskng" target="_blank" class="contact_link"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
       </div>
