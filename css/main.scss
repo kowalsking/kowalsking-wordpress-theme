@@ -40,6 +40,7 @@ body a:hover {
   text-align: center;
 }
 .icons a {
+  display: inline-block;
   margin: 0 20px;
   font-size: 40px;
   color: white;
@@ -49,6 +50,7 @@ body a:hover {
 .icons a:hover {
   color: $accent-color;
   transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
 }
 
 header {
