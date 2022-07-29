@@ -42,7 +42,7 @@
             </a>
           </li>
           <li>
-            <a class="menu-a" href="/about">
+            <a class="menu-a" href="wordpress/about">
               <span>
                 about
               </span>
