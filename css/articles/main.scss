@@ -12,13 +12,13 @@
   font-size: 30px;
   transition: all 0.3s;
   padding: 40px 0 20px;
-  border-bottom: 1px --accent-color dashed;
+  border-bottom: 1px var(--accent-color) dashed;
 
   &:hover  {
-    border-bottom: 1px --accent-color solid;
+    border-bottom: 1px var(--accent-color) solid;
     transition: all 0.3s;
     .article-title {
-      color: --accent-color;
+      color: var(--accent-color);
       transition: all 0.3s;
     }
   }
