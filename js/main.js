@@ -4,5 +4,5 @@ new FrontPage()
 
 const root = document.querySelector(':root')
 
-root.style.setProperty('--bg-color', 'white')
+// root.style.setProperty('--bg-color', 'white')
 console.log(getComputedStyle(root))
