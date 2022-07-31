@@ -32,7 +32,7 @@
           <a href="/" class="logo">K</a>
         <ul class="menu">
           <li>
-            <a class="menu-a" href="wordpress/articles">
+            <a class="menu-a" href="./articles">
               <span>
                 articles
               </span>
@@ -42,7 +42,7 @@
             </a>
           </li>
           <li>
-            <a class="menu-a" href="wordpress/about">
+            <a class="menu-a" href="./about">
               <span>
                 about
               </span>
@@ -52,7 +52,7 @@
             </a>
           </li>
           <li>
-            <a class="menu-a" href="/contact">
+            <a class="menu-a" href="./contact">
             <span>
                 contact
               </span>
