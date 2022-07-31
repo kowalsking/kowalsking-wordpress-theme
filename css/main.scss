@@ -115,11 +115,30 @@ header {
   transition: all 0.3s;
 }
 
-// .menu li a:hover {
-//   color: var(--accent-color);
-//   cursor: pointer;
-//   transform: translateY(-100%);
-// }
+blockquote {
+  margin: 0;
+  padding: 20px 40px;
+  color: var(--text-color);
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  border-left: 1px solid var(--accent-color);
+}
+
+blockquote span {
+  display: block;
+  position: relative;
+  text-align: end;
+  width: fit-content;
+  margin-left: auto;
+}
+
+blockquote span::before {
+  content: "©";
+  position: absolute;
+  left: -20px;
+  bottom: -5px;
+}
+
 
 footer {
   color: white;

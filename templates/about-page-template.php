@@ -7,6 +7,11 @@
   <div class="container">
     <h1><?php echo the_title(); ?></h1>
     <?php the_content(); ?>
+
+    <blockquote>
+      Доброго вечора ми з України
+      <span>Петро Щур</span>
+    </blockquote>
   </div>
 </div>
 
