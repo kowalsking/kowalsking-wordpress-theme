@@ -12,15 +12,30 @@
   background-color: var(--accent-color);
 }
 
+body {
+  background-image: linear-gradient(to right top, #ffcc00 50%, #eee 50%);
+  background-size: 100% calc(100% - 100vh + 5px);
+  background-repeat: no-repeat;
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
   font-family: "Roboto", serif;
+
 }
 
-body a:hover {
-  cursor: url('http://kowalsking.dev/wp-content/uploads/2022/07/cursor.png') auto !important;
+body::after {
+  content: "";
+  position: fixed;
+  top: 5px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: -1;
 }
 
 a {
@@ -116,7 +131,7 @@ header {
 }
 
 blockquote {
-  margin: 0;
+  margin: 20px 0;
   padding: 20px 40px;
   color: var(--text-color);
   font-style: italic;
