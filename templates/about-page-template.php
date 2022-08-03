@@ -12,6 +12,8 @@
       Доброго вечора ми з України
       <span>Петро Щур</span>
     </blockquote>
+    <code >
+    </code>
   </div>
 </div>
 
