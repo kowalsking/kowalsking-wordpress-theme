@@ -3,6 +3,8 @@
 @import './articles/main.scss';
 @import './post/main.scss';
 
+@import '../libs/prismjs/prism.scss';
+
 .disable-select {
   user-select: none;
 }
