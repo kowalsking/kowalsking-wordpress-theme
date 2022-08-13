@@ -63,6 +63,10 @@
             </a>
           </li>
         </ul>
+        <div style="font-size: 35px">
+          <a href="https://twitter.com/kwlskng" target="_blank" class="contact_link"><i class="fas fa-moon"></i></a>
+          <a href="https://twitter.com/kwlskng" target="_blank" class="contact_link"><i class="fas fa-sun"></i></a>
+        </div>
       </div>
     </header>
 
