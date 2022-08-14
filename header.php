@@ -65,9 +65,6 @@
         </ul>
         <div class="theme-changer" data-theme="dark">
             <i class="fas fa-sun"></i>
-          <!-- <a href="https://twitter.com/kwlskng" target="_blank" class="contact_link" class="light-theme">
-            <i class="fas fa-sun"></i>
-          </a> -->
         </div>
       </div>
     </header>

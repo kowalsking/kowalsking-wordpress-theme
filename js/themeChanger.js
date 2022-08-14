@@ -35,13 +35,6 @@ export default class {
   constructor() {
     this.root = document.querySelector(':root')
     this.tc = document.querySelector('.theme-changer')
-    this.bg = VARIABLES.bg
-    this.accent = VARIABLES.accent
-    this.text = VARIABLES.text
-    this.border = VARIABLES.border
-    this.h2 = VARIABLES.h2
-    this.menu = VARIABLES.menu
-
     const t = localStorage.getItem('theme')
     this.changeTo(t || 'dark')
 
@@ -51,42 +44,15 @@ export default class {
   }
 
   changeTo(theme) {
-    if (theme === 'light') {
-      this.changeToLight()
-    } else {
-      this.changeToDark()
-    }
+    this.setProperties(theme)
+    localStorage.setItem('theme', theme)
+    this.tc.dataset.theme = theme
+    this.tc.innerHTML = `<i class="fas fa-${theme === 'dark' ? 'sun' : 'moon'}"></i>`
   }
 
-  changeToDark() {    
-    this.setProperties(COLOR_PALETTE.dark)
-    localStorage.setItem('theme', 'dark')
-    this.tc.dataset.theme = 'dark'
-    this.tc.innerHTML = '<i class="fas fa-sun"></i>'
-  }
-
-  changeToLight() {
-    this.setProperties(COLOR_PALETTE.light)
-    localStorage.setItem('theme', 'light')
-    this.tc.dataset.theme = 'light'
-    this.tc.innerHTML = '<i class="fas fa-moon"></i>'
-  }
-
-  setProperties(colors) {
-    const { 
-      [VARIABLES.bg]: bg,
-      [VARIABLES.accent]: accent,
-      [VARIABLES.text]: text,
-      [VARIABLES.border]: border,
-      [VARIABLES.h2]: h2,
-      [VARIABLES.menu]: menu,
-    } = colors
-
-    this.root.style.setProperty(this.bg, bg)
-    this.root.style.setProperty(this.accent, accent)
-    this.root.style.setProperty(this.text, text)
-    this.root.style.setProperty(this.border, border)
-    this.root.style.setProperty(this.h2, h2)
-    this.root.style.setProperty(this.menu, menu)
+  setProperties(theme) {
+    Object.keys(VARIABLES).forEach(v => {
+      this.root.style.setProperty(VARIABLES[v], COLOR_PALETTE[theme][VARIABLES[v]])
+    })
   }
 }
