@@ -3,7 +3,7 @@
   get_header();
 ?>
 
-<div class="about-screen">
+<div class="post-page">
   <div class="container">
     <h1><?php echo the_title(); ?></h1>
     <?php the_content(); ?>
@@ -27,7 +27,14 @@
       console.log(getComputedStyle(root))
     </code>
   </pre>
+  <h2>Ніщо не зупинить ідею, час якої настав</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
   </div>
+
+
 </div>
 
 <?php 

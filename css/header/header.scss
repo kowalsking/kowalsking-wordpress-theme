@@ -41,7 +41,7 @@ header {
 
 .menu li a {
   text-decoration: none;
-  color: white;
+  color: var(--menu-color);
   font-size: 20px;
   transition: all 0.3s;
 }
