@@ -21,7 +21,7 @@
 
       new FrontPage()
 
-      const root == document.querySelector(':root')
+      const root == document.querySelector(':root');
 
       // root.style.setProperty('--bg-color', 'white')
       console.log(getComputedStyle(root))
