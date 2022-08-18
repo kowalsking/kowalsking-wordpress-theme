@@ -16,7 +16,7 @@
       <code class="language-js">
       import prism from '../libs/prismjs/prism';
 
-      console.log('prism', prism)
+      console.log('prism', prism);
       import FrontPage from './frontPage'
 
       new FrontPage()
