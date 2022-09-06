@@ -28,6 +28,11 @@
 
     </code>
   </pre>
+
+  <canvas id="post-canvas-setup" width="750" height="400" style="border:1px solid lightgrey;">
+    Ваш браузер не підтримує канвас :'(.
+  </canvas>
+
   <h2>Ніщо не зупинить ідею, час якої настав</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur excepturi? Amet possimus saepe maxime impedit, officiis omnis et quidem consectetur? Reprehenderit officia consequuntur quod molestiae laudantium earum omnis voluptas.</p>
