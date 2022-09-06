@@ -25,6 +25,7 @@
 
       // root.style.setProperty('--bg-color', 'white')
       console.log(getComputedStyle(root))
+
     </code>
   </pre>
   <h2>Ніщо не зупинить ідею, час якої настав</h2>
