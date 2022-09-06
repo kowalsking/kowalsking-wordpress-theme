@@ -13,6 +13,7 @@ export default class Posts {
     function init(){
         // Get a reference to the canvas
         canvas = document.getElementById('post-canvas-setup');
+        if (!canvas) return
         context = canvas.getContext('2d');
         draw();
     }
