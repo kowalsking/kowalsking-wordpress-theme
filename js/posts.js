@@ -6,7 +6,7 @@ export default class Posts {
   canvasSetup() {
     "use strict";
     let canvas;
-    let context;
+    let context
 
     window.onload = init;
 
