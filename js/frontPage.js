@@ -4,6 +4,9 @@ export default class {
   constructor () {
     this.handleH1()
     this.disableUserSelect()
+
+    console.log("%c+","font-size: 1px; padding: 180px 320px; line-height: 360px; background: url(https://i.giphy.com/media/PnDRNekrgtHh5jXMna/giphy.webp); background-size: 340px 360px;");
+    console.log('hi there!')
   }
 
   disableUserSelect () {
